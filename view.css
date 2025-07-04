@@ -1,0 +1,52 @@
+.calendar_grid {
+  display: grid;
+  grid-template-columns: 120px 48px 6px 24px 24px 24px 24px 24px 24px 24px 6px 1fr;
+  text-align: center;
+  border: none;
+  white-space: nowrap;
+}
+
+.calendar_button {
+  border: none;
+  border-radius: 3px;
+  margin: 1px;
+}
+
+.calendar_button:hover {
+  box-shadow: 0px 0px 3px 1px #404060;
+  background-color: #c9c9c9;
+}
+
+.calendar_button.empty:hover {
+  box-shadow: 0px 0px 0px 0px #404060;
+}
+
+.calendar_button.flag1 {
+  border: 3px solid;
+  border-color: #ffd76c;
+  margin: 0.5px;
+}
+
+.calendar_button.flag2 {
+  border: 3px solid;
+  border-color: #f4e3b6;
+  margin: 0.5px;
+}
+
+.calendar_button.flag3 {
+  border: 3px solid;
+  border-color: #c0d8ff;
+  margin: 0.5px;
+}
+
+.calendar_button.flag4 {
+  border: 3px solid;
+  border-color: #cac2d5;
+  margin: 0.5px;
+}
+
+.calendar_button.flag5 {
+  border: 3px solid;
+  border-color: #d3b2ab;
+  margin: 0.5px;
+}
